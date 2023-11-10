@@ -1,0 +1,72 @@
+.recipe-container {
+    margin-top: 15px;
+}
+
+.carousel-title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(7, 67, 35);
+    color: white;
+    letter-spacing: 1px;
+}
+
+.carousel {
+    margin: 20px; 
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.carousel a h3 {
+    font-size: 25px;
+    margin: 0 auto;
+    margin-top:10px;
+    height: 60px;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-weight: 50;
+    width: 300px;
+    color: #03917C;
+    text-decoration: none;
+    max-width: 300px; 
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    padding: 20px;
+    vertical-align: top;
+    align-items: center;
+}
+
+.carousel a h3:hover {
+    color:rgb(7, 67, 35);
+}
+
+img {
+    border-radius: 2rem;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: inline-block;
+    padding: 20px;
+    vertical-align: top;
+    align-items: center;
+}
+
+/* img:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 7px 25px 0 rgba(0,0,0,0.19);
+} */
+
+/* .recipe-card a:link {
+    color: #03917C;
+} */
+
+
+/* .recipe-card h3:hover {
+    color:rgb(7, 67, 35);
+
+} */

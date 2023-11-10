@@ -1,0 +1,120 @@
+.recipe-detail {
+  display: flex;
+  flex-direction:row;
+  gap: 4rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem; 
+}
+
+.recipe-detail img {
+  width: auto;
+}
+
+.left-column {
+  width: 100%;
+  font-family: 'Abel', sans-serif;
+  letter-spacing: 2px;
+  margin-left: 10rem;
+}
+
+.right-column {
+  max-width: 50%;
+}
+
+.recipe-button {
+  text-align: center;
+  align-items: center;
+  color: #EBF8DF;
+  background-color: #074323;;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  width: fit-content;
+  /* border: 10px solid black; */
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 2rem;
+
+}
+
+.recipe-button:hover {
+  text-align: center;
+  align-items: center;
+  background-color: #EBF8DF; 
+  color: #03917C;
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 10px 0 rgba(0,0,0,0.19);
+  border-radius: 2rem;
+  border-width: 2px;
+  border-color: black;
+  font-size: 20px;
+}
+
+.active {
+  text-align: center;
+  align-items: center;
+  color: #074323;
+  background-color: #EBF8DF;;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  width: fit-content;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 2rem;
+  }
+
+.active:hover {
+  text-align: center;
+  align-items: center;
+  background-color: #EBF8DF; 
+  color: #03917C;
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 10px 0 rgba(0,0,0,0.19);
+  border-radius: 2rem;
+  border-width: 2px;
+  border-color: black;
+  font-size: 20px;  
+} 
+
+.recipe-summary p {
+  font-size: 20px;
+  padding-right: 10%;
+  padding-left: 4%;
+  font-family: 'Abel', sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+
+.recipe-summary p a {
+  text-decoration: none;
+  color: #03917C
+}
+
+.recipe-summary p a:hover {
+  text-decoration: none;
+  color: #FCFEFA;
+}
+
+.recipe-instructions {
+  font-size: 20px;
+  padding-right: 10%;
+  padding-left: 4%;
+  font-family: 'Abel', sans-serif;
+  letter-spacing: 2px;
+}
+
+svg.heart {
+  margin-left: 2rem;
+  margin-top: 1.2rem;
+}
+
+.heart-full{
+  color: red;
+}

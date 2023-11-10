@@ -1,0 +1,81 @@
+body {
+  background-color: #EBF8DF;
+  color: rgb(7, 67, 35);
+  margin: auto;
+}
+
+header {
+  color: white;
+  padding-left: 100px;
+  background-color: rgb(7, 67, 35);
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+header h1 {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 95px;
+  margin: auto;
+  padding-top: 13px;
+  position: absolute;
+} 
+
+header ul {
+  font-family: 'Abel', sans-serif;
+  letter-spacing: 2px;
+  list-style-type: none;
+  padding-right: 140px;
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: row wrap;
+  gap: 100px;
+  margin: auto;
+  padding-top: 125px;
+  padding-bottom: 40px;
+}
+
+header a {
+  color: white;
+}
+
+header a:hover {
+  color: #EBF8DF;
+}
+
+header a:link{
+  text-decoration: none;
+  font-size: 25px;
+}
+
+
+/* recipe card stuff */
+
+.recipe-card:hover .card-body {
+  right: 0;
+}
+
+.card-img {
+  border-radius: 2rem;
+  width: 300px;
+}
+
+.card-body{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background: transparent;
+  backdrop-filter: blur(5px);
+  transition: 1s;
+  color: #EBF8DF;
+  border-radius: 2rem;
+  font-size: 1rem;
+}
+
+.deet-text {
+  padding: 40px;
+  padding-top: 60px;
+  line-height: 0.5rem;
+  font-size: larger;
+}

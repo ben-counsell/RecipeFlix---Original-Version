@@ -1,0 +1,51 @@
+/* body {
+    background-color: #EBF8DF;
+    color: rgb(7, 67, 35);
+    margin: auto;
+  }
+  header {
+    color: white;
+    padding-left: 100px;
+    background-color: rgb(7, 67, 35);
+    margin: auto;
+  }
+  header h1 {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 95px;
+    margin: auto;
+    padding-top: 30px;
+    position: absolute;
+  }
+  header ul {
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 2px;
+    list-style-type: none;
+    padding-right: 140px;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+    gap: 100px;
+    margin: auto;
+    padding-top: 125px;
+    padding-bottom: 40px;
+  }
+  header a {
+    color: white;
+  }
+  a:hover {
+    color: #EBF8DF;
+  }
+  a:link{
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   */
